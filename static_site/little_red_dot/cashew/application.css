@@ -1,0 +1,2571 @@
+@font-face {
+  font-family: Raleway Light;
+  src: url('raleway_light.otf');
+}
+
+@font-face {
+  font-family: Avenir Medium;
+  src: url('avenir_medium.otf');
+}
+
+@font-face {
+  font-family: Avenir Heavy;
+  src: url('avenir_heavy.otf');
+}
+
+.crisp {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0,0,0,0.01) 0 0 1px;
+  text-shadow: rgba(0,0,0,0.01) 0 0 1px;
+}
+
+.btn {
+  background-color: #3ecf0b;
+  padding: 7px 18px 5px;
+  color: #fff;
+  border-radius: 24px;
+  font-size: 12px;
+  font-family: Avenir Heavy;
+}
+
+.btn:visited,.btn:active,.btn:hover {
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #37b50b;
+}
+
+.status-icon {
+  width: 62px;
+  height: 62px;
+  background-image: url(http://trystatus.com/assets/status/owl-a96786f9755d902abd1a88dce21da457.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-fluid {
+  padding: 29px 0 0;
+}
+
+section .row {
+  width: 674px;
+  margin: 0 auto;
+}
+
+section h2 {
+  font-size: 32px;
+  font-family: Raleway Light;
+  margin-top: 0;
+  margin-bottom: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0,0,0,0.01) 0 0 1px;
+  text-shadow: rgba(0,0,0,0.01) 0 0 1px;
+}
+
+section h3 {
+  font-family: Avenir Heavy;
+  font-size: 30px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0,0,0,0.01) 0 0 1px;
+  text-shadow: rgba(0,0,0,0.01) 0 0 1px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 34px;
+}
+
+section h4 {
+  font-family: Avenir Medium;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0,0,0,0.01) 0 0 1px;
+  text-shadow: rgba(0,0,0,0.01) 0 0 1px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 26px;
+}
+
+section .copy h3 {
+  margin-bottom: 16px;
+}
+
+section .col-md-4,section .col-md-5,section .col-md-6,section .col-md-7,section .col-md-8,section .col-md-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+section.top {
+  display: none;
+  padding-bottom: 60px;
+}
+
+section.top .row {
+  width: 770px;
+}
+
+section.top .desc {
+  padding-top: 55px;
+}
+
+section.top .desc h2 {
+  margin-top: 42px;
+}
+
+section.top .desc .invite-wrapper {
+  margin-top: 20px;
+  height: 127px;
+}
+
+section.top .desc #sms-success {
+  display: none;
+  font-size: 18px;
+  color: #999;
+  font-family: Avenir Medium;
+}
+
+section.top .desc #sms-success .glyphicon {
+  color: #28BF82;
+}
+
+section.top .desc #sms-success .sms-warning {
+  margin-left: 22px;
+}
+
+section.top .desc #sms-success .sms-show {
+  margin-top: 12px;
+  margin-left: 22px;
+  display: block;
+}
+
+section.top .desc #invite-form .sms-instr {
+  color: #999;
+  font-family: Avenir Medium;
+  font-size: 15px;
+}
+
+section.top .desc #invite-form .sms-send {
+  margin-top: 12px;
+}
+
+section.top .desc #invite-form .sms-send .intl-tel-input {
+  float: left;
+  border: 1px solid #cacdce;
+  border-radius: 2px;
+}
+
+section.top .desc #invite-form .sms-send .intl-tel-input input[type="tel"] {
+  border: none;
+  color: #999;
+  line-height: 20px;
+  padding: 11px 20px 11px 11px;
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0,0,0,0.01) 0 0 1px;
+  text-shadow: rgba(0,0,0,0.01) 0 0 1px;
+}
+
+section.top .desc #invite-form .sms-send input[type="submit"] {
+  float: left;
+  margin-left: 7px;
+  background-color: #28BF82;
+  padding: 16px 17px;
+  line-height: 12px;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  font-size: 15px;
+  font-family: 'Avenir Heavy';
+}
+
+section.top .desc #invite-form .sms-error {
+  display: none;
+  margin-top: 7px;
+  font-family: Avenir Medium;
+  font-size: 15px;
+  color: red;
+}
+
+section.top .desc .store-links {
+  margin-top: 13px;
+}
+
+section.top .desc .store-links a {
+  display: inline-block;
+}
+
+section.top .desc .store-links a:nth-child(2) {
+  margin-left: 5px;
+}
+
+section.top .more {
+  margin-top: 29px;
+  color: #cbcccd;
+}
+
+section.top .more .more-image {
+  margin: 0 auto 10px;
+}
+
+section.top .more .more-link {
+  cursor: pointer;
+}
+
+.slick-slider {
+  margin-bottom: 0;
+}
+
+section.testimonials {
+  height: 413px;
+}
+
+section.testimonials .col-md-12 {
+  height: 413px;
+  background-size: cover;
+  background-position: center;
+}
+
+section.testimonials .wilfred {
+  background-image: url(http://trystatus.com/assets/testimonials/paul-bg-f64ac09b5c27558bac2d6d7194f89875.jpg);
+}
+
+section.testimonials .wilfred .row {
+  width: 543px;
+  height: 180px;
+}
+
+section.testimonials .wilfred .row .quote-text {
+  width: 522px;
+}
+
+section.testimonials .pic-wilfred {
+  background-image: url('./wilfred.jpg');
+  height: 100px;
+  width: 100px;
+}
+
+section.testimonials .mike {
+  background-image: url(http://trystatus.com/assets/testimonials/mike-bg-e61a3cc2fd03ac35b6f34a743daba511.jpg);
+}
+
+section.testimonials .mike .row {
+  width: 568px;
+  height: 180px;
+}
+
+section.testimonials .mike .row .quote-text {
+  width: 547px;
+}
+
+section.testimonials .pic-mike {
+  background-image: url(http://trystatus.com/assets/testimonials/mike-2a27e3fb1090542094211eb880c06b57.png);
+}
+
+section.testimonials .harj {
+  background-image: url(http://trystatus.com/assets/testimonials/harj-bg-5eea8d39c722a095c6707585565a6404.jpg);
+}
+
+section.testimonials .harj .row {
+  width: 671px;
+  height: 110px;
+}
+
+section.testimonials .harj .row .quote-text {
+  width: 650px;
+}
+
+section.testimonials .pic-harj {
+  background-image: url(http://trystatus.com/assets/testimonials/harj-37533bcf035ee01de8c1adf4b484d284.png);
+}
+
+section.testimonials .diane {
+  background-image: url(http://trystatus.com/assets/testimonials/diane-bg-98a080dfcf53b81716fdd8bc6d3f2ae5.jpg);
+}
+
+section.testimonials .diane .row {
+  width: 575px;
+  height: 150px;
+}
+
+section.testimonials .diane .row .quote-text {
+  width: 554px;
+}
+
+section.testimonials .pic-diane {
+  background-image: url(http://trystatus.com/assets/testimonials/diane-1770b09bf462f88766dfb1c89a2c451c.png);
+}
+
+section.testimonials .meghan {
+  background-image: url(http://trystatus.com/assets/testimonials/meghan-bg-ac658ea32614bad9ae469a5749ffaedb.jpg);
+}
+
+section.testimonials .meghan .row {
+  width: 689px;
+  height: 110px;
+}
+
+section.testimonials .meghan .row .quote-text {
+  width: 668px;
+}
+
+section.testimonials .pic-meghan {
+  background-image: url(http://trystatus.com/assets/testimonials/meghan-1eb1a3f88fd6c70bd5ae821f16728915.png);
+}
+
+section.testimonials .jamie {
+  background-image: url(http://trystatus.com/assets/testimonials/jamie-bg-ca23dbf1c99a11763fd86c79e62db613.jpg);
+}
+
+section.testimonials .jamie .row {
+  width: 588px;
+  height: 150px;
+}
+
+section.testimonials .jamie .row .quote-text {
+  width: 567px;
+}
+
+section.testimonials .pic-jamie {
+  background-image: url(http://trystatus.com/assets/testimonials/jamie-d8beeeb62bbda89cad118b6a03c7b4c3.png);
+}
+
+section.testimonials .row {
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+section.testimonials .row .quote-wrapper {
+  font-size: 25px;
+  font-family: Avenir Light;
+  color: #fff;
+}
+
+section.testimonials .row .quote-wrapper .quote {
+  font-size: 70px;
+  opacity: .5;
+}
+
+section.testimonials .row .quote-wrapper .quote-start {
+  float: left;
+  line-height: 0px;
+}
+
+section.testimonials .row .quote-wrapper .quote-text {
+  float: left;
+}
+
+section.testimonials .row .quote-wrapper .quote-end {
+  vertical-align: -65px;
+  line-height: 20px;
+  padding-left: 2px;
+}
+
+section.testimonials .row .user {
+  width: 165px;
+  margin: 0 auto;
+}
+
+section.testimonials .row .user .pic {
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  float: left;
+  border-radius: 25px;
+}
+
+section.testimonials .row .user .text {
+  float: left;
+  margin-top: 5px;
+}
+
+section.testimonials .row .user .text .user-name {
+  padding-top: 12px;
+  text-align: left;
+  font-family: Avenir Heavy;
+  font-size: 14px;
+  color: #fff;
+}
+
+section.testimonials .row .user .text .actual-review {
+  text-align: left;
+  font-family: Avenir Heavy;
+  font-size: 12px;
+  color: #dad8d8;
+}
+
+section.coordination {
+  position: relative;
+  background-color: #ea4c4d;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  color: #fff;
+}
+
+section.coordination .base {
+  padding: 110px 0;
+}
+
+section.coordination .base .inner {
+  padding-top: 31px;
+}
+
+section.coordination .base .status-avatar {
+  margin: 0 auto 20px;
+}
+
+section.coordination .base .text {
+  font-family: Avenir Regular;
+  font-size: 15px;
+}
+
+section.coordination .base .text .text-status {
+  font-family: Avenir Heavy;
+  font-size: 15px;
+}
+
+section.coordination .base .copy {
+  text-align: right;
+}
+
+section.coordination .base h3 {
+  margin-top: 16px;
+}
+
+section.coordination .base .see {
+  color: #fdcbcb;
+  font-family: Avenir Heavy;
+  font-size: 12px;
+  border: 1px solid #fc8585;
+  border-radius: 26px;
+  margin-top: 8px;
+  display: block;
+  padding: 11px 20px;
+  float: right;
+}
+
+section.coordination .how-it-works {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(234,76,77,0.95);
+}
+
+section.coordination .how-it-works .row:first-child {
+  margin-top: 45px;
+}
+
+section.coordination .how-it-works .row:nth-child(2) {
+  margin: 32px auto 116px;
+}
+
+section.coordination .how-it-works h3 {
+  font-size: 16px;
+  font-family: Avenir Heavy;
+}
+
+section.coordination .how-it-works h4 {
+  font-size: 14px;
+}
+
+section.coordination .how-it-works .how-it-works-image {
+  margin: 0 auto;
+}
+
+section.coordination .how-it-works .how-it-works-close-image {
+  margin-left: -70px;
+  display: block;
+}
+
+section.auto {
+  background-color: #28BF82;
+  color: #fff;
+}
+
+section.auto .copy {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 360px;
+  padding: 0;
+}
+
+section.auto .spinner {
+  margin-left: 32px;
+}
+
+section.auto .spinner.visible {
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 3000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 3000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 3000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  -o-transition: rotate(3600deg);
+}
+
+section.auto .phone-in-pocket {
+  margin-top: 19px;
+}
+
+section.status-alert {
+  height: 443px;
+  background-color: #63c928;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section.status-alert .row {
+  padding: 119px 0 117px;
+}
+
+section.status-alert .alert-quote-bg {
+  margin: 0 auto;
+  font-family: Avenir Medium;
+  font-size: 15px;
+}
+
+section.status-alert .alert-quote-bg .inner {
+  padding-top: 17px;
+}
+
+section.status-alert .alert-avatar-wrapper {
+  margin: 8px auto 0;
+  width: 125px;
+  height: 125px;
+  position: relative;
+}
+
+section.status-alert .alert-avatar-wrapper .alert-avatar {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  z-index: 2;
+}
+
+section.status-alert .alert-avatar-wrapper .pulsate.visible {
+  -webkit-animation: pulsate 2s ease-out;
+  -webkit-animation-iteration-count: infinite;
+  -ms-animation: pulsate 2s ease-out;
+  -ms-animation-iteration-count: infinite;
+  -moz-animation: pulsate 2s ease-out;
+  -moz-animation-iteration-count: infinite;
+}
+
+section.status-alert .alert-avatar-wrapper .delayed.visible {
+  -ms-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+section.status-alert .alert-avatar-wrapper .alert-avatar-rings {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  border: 6px solid #fff;
+  width: 125px;
+  height: 125px;
+  border-radius: 62px;
+}
+
+section.status-alert .copy {
+  text-align: right;
+  color: #fff;
+  margin-top: 20px;
+}
+
+section.dialer {
+  background-color: #ecedef;
+}
+
+section.dialer .copy {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: right;
+}
+
+.copy h4 {
+  padding-bottom: 15px;
+}
+
+section.dialer .col-md-6:first-child {
+  overflow: hidden;
+}
+
+section.dialer .dialer-ss {
+  margin-top: 366px;
+}
+
+section.statuses {
+  background-color: #4c3f3e;
+  padding: 55px 0 48px;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section.statuses .col-md-12 {
+  margin-bottom: 32px;
+  color: #fff;
+}
+
+section.statuses .item {
+  height: 48px;
+  margin-bottom: 1px;
+  color: #d7d9da;
+  font-family: Avenir Medium;
+  font-size: 13px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0,0,0,0.01) 0 0 1px;
+  text-shadow: rgba(0,0,0,0.01) 0 0 1px;
+  position: relative;
+  line-height: 48px;
+}
+
+section.statuses .item .icon {
+  display: none;
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  margin-left: -12px;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: 2;
+}
+
+section.statuses .item .bg {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -24px;
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  z-index: 1;
+}
+
+section.footer {
+  padding: 49px 0 61px;
+}
+
+section.footer .row {
+  width: 770px;
+}
+
+section.footer .store-links {
+  margin-top: 15px;
+}
+
+section.footer .store-links a {
+  display: inline-block;
+}
+
+section.footer .store-links a:nth-child(2) {
+  margin-right: 5px;
+}
+
+section.footer .row-privacy {
+  text-align: right;
+}
+
+section.footer .privacy {
+  color: #aaa;
+  font-family: Avenir Medium;
+  font-size: 12px;
+}
+
+.logo {
+  width: 196px;
+  height: 70px;
+  background-image: url(logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo-light {
+  width: 196px;
+  height: 70px;
+  background-image: url(logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.phones-small-image {
+  width: 330px;
+  height: 584px;
+  background-image: url(phones.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.playstore-black-image {
+  width: 140px;
+  height: 48px;
+  background-image: url(http://trystatus.com/assets/playstore-black-2x-563815294c60639ca91640de479fc1b2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.playstore-dark-image {
+  width: 152px;
+  height: 55px;
+  background-image: url(http://trystatus.com/assets/playstore-dark-58401a8808a568787bf31cdccb240135.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.playstore-shaded-image {
+  width: 152px;
+  height: 55px;
+  background-image: url(http://trystatus.com/assets/playstore-shaded-2d94ee1f5c276afb1e72a57d633e491e.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.appstore-black-image {
+  width: 164px;
+  height: 48px;
+  background-image: url(http://trystatus.com/assets/appstore-black-2x-09d77dfde805a00fc6c1a19f08d4f30b.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.appstore-dark-image {
+  width: 200px;
+  height: 58px;
+  background-image: url(http://trystatus.com/assets/appstore-dark-972062f1965cc6b8617026b143709ebc.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.appstore-shaded-image {
+  width: 151px;
+  height: 55px;
+  background-image: url(http://trystatus.com/assets/appstore-shaded-27535da84844581602c685266b998cf4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.more-image {
+  width: 25px;
+  height: 25px;
+  background-image: url(http://trystatus.com/assets/more-a439a4bda023e5edd8c38fb4c9f2c5f4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.playstore-light-image {
+  width: 180px;
+  height: 67px;
+  background-image: url(http://trystatus.com/assets/playstore-light-24cf6bd9cf5b645ae65549240a119d8f.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.appstore-light-image {
+  width: 180px;
+  height: 67px;
+  background-image: url(http://trystatus.com/assets/appstore-light-fee3d008986255b9b398e438234ea7f6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.status-quote {
+  width: 230px;
+  height: 191px;
+  background-image: url(http://trystatus.com/assets/coord-img-border-13c6c71bf19793b92fd40299aa7d4f63.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.status-avatar {
+  width: 115px;
+  height: 86px;
+  background-image: url(http://trystatus.com/assets/status-avatar-78dc58969c29744b1d058c8f0365d0db.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.how-it-works-image {
+  width: 244px;
+  height: 178px;
+  background-image: url(http://trystatus.com/assets/how-it-works-9f835eb1669ef424881ebe1c2fa7b7db.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.how-it-works-close-image {
+  width: 36px;
+  height: 36px;
+  background-image: url(http://trystatus.com/assets/how-it-works-close-8d167398e3915513a5fe5181b3e5e83f.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.phone-in-pocket {
+  width: 130px;
+  height: 193px;
+  background-image: url(http://trystatus.com/assets/phone-in-pocket-28dc35277d945b7b1de9dcaa25c200b8.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.spinner {
+  width: 66px;
+  height: 49px;
+  background-image: url(http://trystatus.com/assets/spinner-e8cba5aa5b936fb9a2bd4cede22e1442.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.alert-quote-bg {
+  width: 280px;
+  height: 61px;
+  background-image: url(http://trystatus.com/assets/alert-quote-bg-6da4c4a1c378243ead1a541c9bf312e1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.alert-avatar {
+  width: 85px;
+  height: 85px;
+  background-image: url(http://trystatus.com/assets/alert-avatar-92536661388934d4febb54391c99b048.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dialer-ss {
+  width: 263px;
+  height: 366px;
+  background-image: url(http://trystatus.com/assets/dialer-ss-a261386d2b38c5942664ed9b065971b1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dialer-ss-shading {
+  width: 284px;
+  height: 18px;
+  background-image: url(http://trystatus.com/assets/dialer-ss-shading-97a1679c5809b6ca6e1d9cbb605f02b6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section.coordination {
+  background-image: url(http://trystatus.com/assets/map-c4df030aebbcf607267bc8234292a5c2.png);
+}
+
+section.status-alert {
+  background-image: url(http://trystatus.com/assets/alert-bg-16cd0dad2dc6de2e0b0522af7a405600.png);
+}
+
+section.statuses {
+  background-image: url(http://trystatus.com/assets/statuses-bg-0eb84ef27a864d07ed3b79d7a5b8fa83.png);
+}
+
+.driving-icon {
+  background-image: url(http://trystatus.com/assets/statuses/StatusTypeDriving-e2b389cbbb29143d5a8b2be627811e5e.png);
+}
+
+.driving-bg {
+  background-color: #eb4d4d;
+}
+
+.work-icon {
+  background-image: url(http://trystatus.com/assets/statuses/StatusTypeWork-8a634d6a1d13e657b1a44293ea18db0a.png);
+}
+
+.work-bg {
+  background-color: #c9375a;
+}
+
+.out-icon {
+  background-image: url(http://trystatus.com/assets/statuses/StatusTypeOut-d0e59b0c146bcebf707b9d1daff8fe5e.png);
+}
+
+.out-bg {
+  background-color: #0ad5d7;
+}
+
+.meeting-icon {
+  background-image: url(http://trystatus.com/assets/statuses/StatusTypeMeeting-74d087754b742a7b9e74f9b937204f06.png);
+}
+
+.meeting-bg {
+  background-color: #f7a310;
+}
+
+.walking-icon {
+  background-image: url(http://trystatus.com/assets/statuses/StatusTypeWalking-6c9971c6516df72e995dcba4f95ee976.png);
+}
+
+.walking-bg {
+  background-color: #3fcf0c;
+}
+
+.battery-icon {
+  background-image: url(http://trystatus.com/assets/statuses/StatusTypeLowBattery-bdc983c3f9e8d7b8d47ae3c6f1be9e2d.png);
+}
+
+.battery-bg {
+  background-color: #a47dd8;
+}
+
+.home-icon {
+  background-image: url(http://trystatus.com/assets/statuses/StatusTypeHome-ce273eadba7c41d6c22a2155c117f144.png);
+}
+
+.home-bg {
+  background-color: #09d16c;
+}
+
+.running-icon {
+  background-image: url(http://trystatus.com/assets/statuses/StatusTypeRunning-34c440f1893946bb30efbcbf0ba7a90e.png);
+}
+
+.running-bg {
+  background-color: #37a0e9;
+}
+
+.unavailable-icon {
+  background-image: url(http://trystatus.com/assets/statuses/StatusTypeUnavailable-d1b812fbe570a05f9aaf74ebff59f33f.png);
+}
+
+.unavailable-bg {
+  background-color: #8c9193;
+}
+
+.sleeping-icon {
+  background-image: url(http://trystatus.com/assets/statuses/StatusTypeSleep-606bcf90a100f9dd1b1907c32fcdb5b1.png);
+}
+
+.sleeping-bg {
+  background-color: #48267b;
+}
+
+.biking-icon {
+  background-image: url(http://trystatus.com/assets/statuses/StatusTypeBiking-10e4e08e3372001a8e47fa2898d4ec4f.png);
+}
+
+.biking-bg {
+  background-color: #e7cf00;
+}
+
+.incognito-icon {
+  background-image: url(http://trystatus.com/assets/statuses/StatusTypeIncognito-226f1e70b377ffcbc9157aacc10e3d15.png);
+}
+
+.incognito-bg {
+  background-color: #8c9193;
+}
+
+#sview-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40%;
+  width: 100%;
+  background-color: #f5f6f6;
+}
+
+#sview-top #sview-map-link {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sview-top #sview-avatar-outer {
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin: -44px auto auto -44px;
+  width: 88px;
+  height: 88px;
+  background-color: #fff;
+  border-radius: 44px;
+  -webkit-box-shadow: 0 0 5px 0 rgba(102,102,102,0.5);
+  -moz-box-shadow: 0 0 5px 0 rgba(102,102,102,0.5);
+  box-shadow: 0 0 5px 0 rgba(102,102,102,0.5);
+}
+
+#sview-top #sview-avatar-inner {
+  position: absolute;
+  z-index: 1;
+  top: 3px;
+  left: 3px;
+  width: 82px;
+  height: 82px;
+  background-color: #fff;
+  border-radius: 41px;
+  overflow: hidden;
+}
+
+#sview-mid {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  height: 60%;
+  width: 100%;
+  background-color: #f5f6f6;
+  z-index: 0;
+  text-align: center;
+}
+
+#sview-mid .status-desc {
+  margin-top: 76px;
+  font-family: Avenir Medium;
+  font-size: 18px;
+  color: #2e2f30;
+}
+
+#sview-mid .status-desc .status {
+  font-family: Avenir Heavy;
+}
+
+#sview-mid .location {
+  margin-top: 6px;
+  font-family: Avenir Medium;
+  font-size: 13px;
+  color: #6c6e70;
+}
+
+#sview-mid .location a {
+  color: #6c6e70;
+}
+
+#sview-mid .last-updated {
+  margin-top: 6px;
+  font-family: Avenir Medium;
+  font-size: 11px;
+  color: #7f8183;
+}
+
+#sview-bot {
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  background-color: #fff;
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #dddede;
+  width: 100%;
+}
+
+#sview-bot .inner {
+  width: 320px;
+  height: 62px;
+  margin: 15px auto;
+}
+
+#sview-bot .inner .left {
+  float: left;
+  margin-left: 10px;
+  width: 62px;
+}
+
+#sview-bot .inner .left a {
+  display: block;
+}
+
+#sview-bot .inner .right {
+  padding: 0;
+  float: left;
+  margin-left: 8px;
+}
+
+#sview-bot .inner .right .first-line {
+  margin-top: 3px;
+}
+
+#sview-bot .inner .right .first-line a {
+  color: #2e2f30;
+  font-size: 13px;
+  font-family: Avenir Heavy;
+}
+
+#sview-bot .inner .right .first-line a:visited,#sview-bot .inner .right .first-line a:active {
+  color: #2e2f30;
+}
+
+#sview-bot .inner .right .second-line {
+  margin-top: 7px;
+}
+
+#sview-bot .inner .right .second-line .btn {
+  margin-right: 14px;
+  float: left;
+}
+
+#sview-bot .inner .right .second-line .app-store-desc {
+  float: left;
+}
+
+#sview-bot .inner .right .second-line .app-store-desc .app-store-stars-wrap {
+  line-height: 12px;
+}
+
+#sview-bot .inner .right .second-line .app-store-desc a.app-store-stars {
+  display: inline-block;
+}
+
+#sview-bot .inner .right .second-line .app-store-desc .app-store-name {
+  width: 66px;
+  text-align: center;
+  line-height: 16px;
+}
+
+#sview-bot .inner .right .second-line .app-store-desc .app-store-name a {
+  font-family: Avenir Medium;
+  font-size: 10.5px;
+  color: #2e2f30;
+  margin-left: 2px;
+}
+
+.app-store-stars {
+  width: 66px;
+  height: 12px;
+  background-image: url(http://trystatus.com/assets/status/review-stars-f60dc4726e764c99a6eec6b52538cff5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header {
+  padding: 8px 0 35px 7px;
+}
+
+#header a.logo-light {
+  display: block;
+}
+
+#footer {
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+
+#footer a.logo-light {
+  display: block;
+}
+
+#footer .store-links a {
+  display: inline-block;
+}
+
+#footer .store-links a:nth-child(2) {
+  margin-right: 5px;
+}
+
+#privacy h1 {
+  font-family: Avenir Light;
+  font-size: 32px;
+  color: #2e2f30;
+  margin-bottom: 52px;
+}
+
+#privacy h2 {
+  font-family: Avenir Heavy;
+  font-size: 18px;
+  color: #4f5252;
+  margin-top: 42px;
+  margin-bottom: 15px;
+}
+
+#privacy p {
+  font-family: Avenir Medium;
+  font-size: 14px;
+  color: #4f5252;
+  margin-bottom: 18px;
+  line-height: 22px;
+}
+
+#privacy a {
+  font-family: Avenir Heavy;
+  font-size: 14px;
+  color: #54bb1b;
+}
+
+#privacy .main {
+  padding-top: 38px;
+  background-color: #f7f7f8;
+  padding-bottom: 115px;
+}
+
+#privacy #header,#privacy #footer,#privacy .main .inner {
+  width: 725px;
+  margin: 0 auto;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
+  .logo {
+    background-image: url(logo.png);
+  }
+
+  .logo-light {
+    background-image: url(logo.png);
+  }
+
+  .playstore-light-image {
+    background-image: url(http://trystatus.com/assets/playstore-light-2x-6064a1401bcfec7165c9eef5e92a7040.png);
+  }
+
+  .playstore-dark-image {
+    background-image: url(http://trystatus.com/assets/playstore-dark-2x-0b774ce63b04f6633f9d383d7be81e26.png);
+  }
+
+  .playstore-black-image {
+    background-image: url(http://trystatus.com/assets/playstore-black-2x-563815294c60639ca91640de479fc1b2.png);
+  }
+
+  .appstore-light-image {
+    background-image: url(http://trystatus.com/assets/appstore-light-2x-4fe89196a83caa971695ff2bbf169817.png);
+  }
+
+  .appstore-dark-image {
+    background-image: url(http://trystatus.com/assets/appstore-dark-2x-7cc61e4e72bf7e7ca587942b8565dd3c.png);
+  }
+
+  .appstore-black-image {
+    background-image: url(http://trystatus.com/assets/appstore-black-2x-09d77dfde805a00fc6c1a19f08d4f30b.png);
+  }
+
+  .phones-image {
+    background-image: url(http://trystatus.com/assets/phones-2x-b57501d85bd9aa136eca8035ad7737a0.png);
+  }
+
+  .phones-small-image {
+    background-image: url(phones.png);
+  }
+
+  .more-image {
+    background-image: url(http://trystatus.com/assets/more-2x-845268cc809fe2d288836f461a078435.png);
+  }
+
+  section.coordination {
+    background-image: url(http://trystatus.com/assets/map-2x-2473f27541e0589d9db43b2afc367dbd.png);
+  }
+
+  .status-quote {
+    background-image: url(http://trystatus.com/assets/coord-img-border-2x-430e86d36c6d4aa02b83390d8aca5a0b.png);
+  }
+
+  .status-avatar {
+    background-image: url(http://trystatus.com/assets/status-avatar-2x-8ed8c45ecb8962c649d05f4a62eae63b.png);
+  }
+
+  .phone-in-pocket {
+    background-image: url(http://trystatus.com/assets/phone-in-pocket-2x-5e92448ffbb0fe2ea32b57f97b8d513a.png);
+  }
+
+  .spinner {
+    background-image: url(http://trystatus.com/assets/spinner-2x-bd111d8bb292db91401c2d31a2b946f5.png);
+  }
+
+  section.status-alert {
+    background-image: url(http://trystatus.com/assets/alert-bg-2x-1bb84fe30f5b6244b1db443974af4111.png);
+  }
+
+  .alert-avatar {
+    background-image: url(http://trystatus.com/assets/alert-avatar-2x-2242c9e253d805ffb0abdb7fe9202780.png);
+  }
+
+  .alert-quote-bg {
+    background-image: url(http://trystatus.com/assets/alert-quote-bg-2x-c788843d40f4e758c7343963578ad157.png);
+  }
+
+  .dialer-ss {
+    background-image: url(http://trystatus.com/assets/dialer-ss-2x-706059e9eef2ea014af3bd43f4116338.png);
+  }
+
+  .dialer-ss-shading {
+    background-image: url(http://trystatus.com/assets/dialer-ss-shading-2x-69ecd6687a99d4f4796b63213fc4e6ae.png);
+  }
+
+  section.statuses {
+    background-image: url(http://trystatus.com/assets/statuses-bg-2x-368a3f7a01142df1e45adc590c40684d.png);
+  }
+
+  .driving-icon {
+    background-image: url(http://trystatus.com/assets/statuses/StatusTypeDriving@2x-653c75f32c973782a6be2387dcee6eb0.png);
+  }
+
+  .work-icon {
+    background-image: url(http://trystatus.com/assets/statuses/StatusTypeWork@2x-ded932feac2263d6008612bdf067cc13.png);
+  }
+
+  .out-icon {
+    background-image: url(http://trystatus.com/assets/statuses/StatusTypeOut@2x-33ec93580b49820b55f72d3882e1ba05.png);
+  }
+
+  .meeting-icon {
+    background-image: url(http://trystatus.com/assets/statuses/StatusTypeMeeting@2x-4a95f7b934ad16507572c377240f254f.png);
+  }
+
+  .walking-icon {
+    background-image: url(http://trystatus.com/assets/statuses/StatusTypeWalking@2x-4a457e567839fc784dc576d93dae6751.png);
+  }
+
+  .battery-icon {
+    background-image: url(http://trystatus.com/assets/statuses/StatusTypeLowBattery@2x-c13fa282c2a40b587519753ac2c4d001.png);
+  }
+
+  .home-icon {
+    background-image: url(http://trystatus.com/assets/statuses/StatusTypeHome@2x-c63d83514aa49a04ec097e4ce04e6931.png);
+  }
+
+  .running-icon {
+    background-image: url(http://trystatus.com/assets/statuses/StatusTypeRunning@2x-0f4c397cad216ae80788bee46f75be58.png);
+  }
+
+  .unavailable-icon {
+    background-image: url(http://trystatus.com/assets/statuses/StatusTypeUnavailable@2x-5d2bc86178a775535a5af4807e766cdc.png);
+  }
+
+  .sleeping-icon {
+    background-image: url(http://trystatus.com/assets/statuses/StatusTypeSleep@2x-d26cea6825b40a7ddb146900a527cbd3.png);
+  }
+
+  .biking-icon {
+    background-image: url(http://trystatus.com/assets/statuses/StatusTypeBiking@2x-2f0a20e1bd21be91524ff14ac5b8f634.png);
+  }
+
+  .incognito-icon {
+    background-image: url(http://trystatus.com/assets/statuses/StatusTypeIncognito@2x-234c1925f400827ac3b6e269b7cceb2e.png);
+  }
+
+  .how-it-works-image {
+    background-image: url(http://trystatus.com/assets/how-it-works-2x-c622c421a487375df3af1fa94d53b985.png);
+  }
+
+  .how-it-works-close-image {
+    background-image: url(http://trystatus.com/assets/how-it-works-close-2x-a7a42ccd6e6cbe42be5d5dffab70ba97.png);
+  }
+
+  .wilfred {
+    background-image: url(http://trystatus.com/assets/testimonials/wilfred-bg-2x-4c1f41f691223fec8509dbb11139e67e.jpg);
+  }
+
+  .mike {
+    background-image: url(http://trystatus.com/assets/testimonials/mike-bg-2x-1ce3f00d6f4f542587a691ea0a5ccac6.jpg);
+  }
+
+  .harj {
+    background-image: url(http://trystatus.com/assets/testimonials/harj-bg-2x-076e6a8b51cda5daae3a07737a831cc1.jpg);
+  }
+
+  .diane {
+    background-image: url(http://trystatus.com/assets/testimonials/diane-bg-2x-ca594dfb0277412a11520d8964837df5.jpg);
+  }
+
+  .meghan {
+    background-image: url(http://trystatus.com/assets/testimonials/meghan-bg-2x-8de629fba9f17e6917c36906e36c5542.jpg);
+  }
+
+  .jamie {
+    background-image: url(http://trystatus.com/assets/testimonials/jamie-bg-2x-013f5cff274097545d31240d0e75a0e1.jpg);
+  }
+
+  .pic-wilfred {
+    background-image: url(./wilfred.jpg);
+    height: 50px;
+    width: 50px;
+  }
+
+  .pic-mike {
+    background-image: url(http://trystatus.com/assets/testimonials/mike-2x-5944c14f3a0be2290f09696c011817a9.png);
+  }
+
+  .pic-harj {
+    background-image: url(http://trystatus.com/assets/testimonials/harj-2x-7d0a1959175ee520ffdf8c47c012874e.png);
+  }
+
+  .pic-diane {
+    background-image: url(http://trystatus.com/assets/testimonials/diane-2x-7a8b991b72437a2d01a687b2cb7cf2e8.png);
+  }
+
+  .pic-meghan {
+    background-image: url(http://trystatus.com/assets/testimonials/meghan-2x-83b9d25a5b817b84ee9de115c73a1854.png);
+  }
+
+  .pic-jamie {
+    background-image: url(http://trystatus.com/assets/testimonials/jamie-2x-6cc8a9acb8cdcc8f4aa1af41bd0df865.png);
+  }
+
+  .status-icon {
+    background-image: url(http://trystatus.com/assets/status/owl-2x-94f20465aa992c7bd5725abf7a462126.png);
+  }
+
+  .app-store-stars {
+    background-image: url(http://trystatus.com/assets/status/review-stars-2x-e581f9a884b43eacba422a05443b7093.png);
+  }
+}
+
+@-ms-keyframes spin {
+  from {
+    -ms-transform: rotate(0deg);
+  }
+
+  to {
+    -ms-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-ms-keyframes pulsate {
+  0% {
+    -ms-transform: scale(0.68,0.68);
+    opacity: .25;
+  }
+
+  50% {
+    opacity: .25;
+  }
+
+  100% {
+    -ms-transform: scale(1,1);
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes pulsate {
+  0% {
+    -moz-transform: scale(0.68,0.68);
+    opacity: .25;
+  }
+
+  50% {
+    opacity: .25;
+  }
+
+  100% {
+    -moz-transform: scale(1,1);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes pulsate {
+  0% {
+    -webkit-transform: scale(0.68,0.68);
+    opacity: .25;
+  }
+
+  50% {
+    opacity: .25;
+  }
+
+  100% {
+    -webkit-transform: scale(1,1);
+    opacity: 0;
+  }
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(0.68,0.68);
+    opacity: .25;
+  }
+
+  50% {
+    opacity: .25;
+  }
+
+  100% {
+    transform: scale(1,1);
+    opacity: 0;
+  }
+}
+
+.intl-tel-input .flag {
+  width: 16px;
+  height: 11px;
+  background: url(http://trystatus.com/assets/flags-91ad71ca006c0257781d48c41cac15f2.png);
+}
+
+.intl-tel-input .ad {
+  background-position: -16px 0;
+}
+
+.intl-tel-input .ae {
+  background-position: -32px 0;
+}
+
+.intl-tel-input .af {
+  background-position: -48px 0;
+}
+
+.intl-tel-input .ag {
+  background-position: -64px 0;
+}
+
+.intl-tel-input .ai {
+  background-position: -80px 0;
+}
+
+.intl-tel-input .al {
+  background-position: -96px 0;
+}
+
+.intl-tel-input .am {
+  background-position: -112px 0;
+}
+
+.intl-tel-input .ao {
+  background-position: -128px 0;
+}
+
+.intl-tel-input .ar {
+  background-position: -144px 0;
+}
+
+.intl-tel-input .as {
+  background-position: -160px 0;
+}
+
+.intl-tel-input .at {
+  background-position: -176px 0;
+}
+
+.intl-tel-input .au {
+  background-position: -192px 0;
+}
+
+.intl-tel-input .aw {
+  background-position: -208px 0;
+}
+
+.intl-tel-input .az {
+  background-position: -224px 0;
+}
+
+.intl-tel-input .ba {
+  background-position: -240px 0;
+}
+
+.intl-tel-input .bb {
+  background-position: 0 -11px;
+}
+
+.intl-tel-input .bd {
+  background-position: -16px -11px;
+}
+
+.intl-tel-input .be {
+  background-position: -32px -11px;
+}
+
+.intl-tel-input .bf {
+  background-position: -48px -11px;
+}
+
+.intl-tel-input .bg {
+  background-position: -64px -11px;
+}
+
+.intl-tel-input .bh {
+  background-position: -80px -11px;
+}
+
+.intl-tel-input .bi {
+  background-position: -96px -11px;
+}
+
+.intl-tel-input .bj {
+  background-position: -112px -11px;
+}
+
+.intl-tel-input .bm {
+  background-position: -128px -11px;
+}
+
+.intl-tel-input .bn {
+  background-position: -144px -11px;
+}
+
+.intl-tel-input .bo {
+  background-position: -160px -11px;
+}
+
+.intl-tel-input .br {
+  background-position: -176px -11px;
+}
+
+.intl-tel-input .bs {
+  background-position: -192px -11px;
+}
+
+.intl-tel-input .bt {
+  background-position: -208px -11px;
+}
+
+.intl-tel-input .bw {
+  background-position: -224px -11px;
+}
+
+.intl-tel-input .by {
+  background-position: -240px -11px;
+}
+
+.intl-tel-input .bz {
+  background-position: 0 -22px;
+}
+
+.intl-tel-input .ca {
+  background-position: -16px -22px;
+}
+
+.intl-tel-input .cd {
+  background-position: -32px -22px;
+}
+
+.intl-tel-input .cf {
+  background-position: -48px -22px;
+}
+
+.intl-tel-input .cg {
+  background-position: -64px -22px;
+}
+
+.intl-tel-input .ch {
+  background-position: -80px -22px;
+}
+
+.intl-tel-input .ci {
+  background-position: -96px -22px;
+}
+
+.intl-tel-input .ck {
+  background-position: -112px -22px;
+}
+
+.intl-tel-input .cl {
+  background-position: -128px -22px;
+}
+
+.intl-tel-input .cm {
+  background-position: -144px -22px;
+}
+
+.intl-tel-input .cn {
+  background-position: -160px -22px;
+}
+
+.intl-tel-input .co {
+  background-position: -176px -22px;
+}
+
+.intl-tel-input .cr {
+  background-position: -192px -22px;
+}
+
+.intl-tel-input .cu {
+  background-position: -208px -22px;
+}
+
+.intl-tel-input .cv {
+  background-position: -224px -22px;
+}
+
+.intl-tel-input .cw {
+  background-position: -240px -22px;
+}
+
+.intl-tel-input .cy {
+  background-position: 0 -33px;
+}
+
+.intl-tel-input .cz {
+  background-position: -16px -33px;
+}
+
+.intl-tel-input .de {
+  background-position: -32px -33px;
+}
+
+.intl-tel-input .dj {
+  background-position: -48px -33px;
+}
+
+.intl-tel-input .dk {
+  background-position: -64px -33px;
+}
+
+.intl-tel-input .dm {
+  background-position: -80px -33px;
+}
+
+.intl-tel-input .do {
+  background-position: -96px -33px;
+}
+
+.intl-tel-input .dz {
+  background-position: -112px -33px;
+}
+
+.intl-tel-input .ec {
+  background-position: -128px -33px;
+}
+
+.intl-tel-input .ee {
+  background-position: -144px -33px;
+}
+
+.intl-tel-input .eg {
+  background-position: -160px -33px;
+}
+
+.intl-tel-input .er {
+  background-position: -176px -33px;
+}
+
+.intl-tel-input .es {
+  background-position: -192px -33px;
+}
+
+.intl-tel-input .et {
+  background-position: -208px -33px;
+}
+
+.intl-tel-input .fi {
+  background-position: -224px -33px;
+}
+
+.intl-tel-input .fj {
+  background-position: -240px -33px;
+}
+
+.intl-tel-input .fk {
+  background-position: 0 -44px;
+}
+
+.intl-tel-input .fm {
+  background-position: -16px -44px;
+}
+
+.intl-tel-input .fo {
+  background-position: -32px -44px;
+}
+
+.intl-tel-input .fr,.intl-tel-input .bl,.intl-tel-input .mf {
+  background-position: -48px -44px;
+}
+
+.intl-tel-input .ga {
+  background-position: -64px -44px;
+}
+
+.intl-tel-input .gb {
+  background-position: -80px -44px;
+}
+
+.intl-tel-input .gd {
+  background-position: -96px -44px;
+}
+
+.intl-tel-input .ge {
+  background-position: -112px -44px;
+}
+
+.intl-tel-input .gf {
+  background-position: -128px -44px;
+}
+
+.intl-tel-input .gh {
+  background-position: -144px -44px;
+}
+
+.intl-tel-input .gi {
+  background-position: -160px -44px;
+}
+
+.intl-tel-input .gl {
+  background-position: -176px -44px;
+}
+
+.intl-tel-input .gm {
+  background-position: -192px -44px;
+}
+
+.intl-tel-input .gn {
+  background-position: -208px -44px;
+}
+
+.intl-tel-input .gp {
+  background-position: -224px -44px;
+}
+
+.intl-tel-input .gq {
+  background-position: -240px -44px;
+}
+
+.intl-tel-input .gr {
+  background-position: 0 -55px;
+}
+
+.intl-tel-input .gt {
+  background-position: -16px -55px;
+}
+
+.intl-tel-input .gu {
+  background-position: -32px -55px;
+}
+
+.intl-tel-input .gw {
+  background-position: -48px -55px;
+}
+
+.intl-tel-input .gy {
+  background-position: -64px -55px;
+}
+
+.intl-tel-input .hk {
+  background-position: -80px -55px;
+}
+
+.intl-tel-input .hn {
+  background-position: -96px -55px;
+}
+
+.intl-tel-input .hr {
+  background-position: -112px -55px;
+}
+
+.intl-tel-input .ht {
+  background-position: -128px -55px;
+}
+
+.intl-tel-input .hu {
+  background-position: -144px -55px;
+}
+
+.intl-tel-input .id {
+  background-position: -160px -55px;
+}
+
+.intl-tel-input .ie {
+  background-position: -176px -55px;
+}
+
+.intl-tel-input .il {
+  background-position: -192px -55px;
+}
+
+.intl-tel-input .in {
+  background-position: -208px -55px;
+}
+
+.intl-tel-input .io {
+  background-position: -224px -55px;
+}
+
+.intl-tel-input .iq {
+  background-position: -240px -55px;
+}
+
+.intl-tel-input .ir {
+  background-position: 0 -66px;
+}
+
+.intl-tel-input .is {
+  background-position: -16px -66px;
+}
+
+.intl-tel-input .it {
+  background-position: -32px -66px;
+}
+
+.intl-tel-input .jm {
+  background-position: -48px -66px;
+}
+
+.intl-tel-input .jo {
+  background-position: -64px -66px;
+}
+
+.intl-tel-input .jp {
+  background-position: -80px -66px;
+}
+
+.intl-tel-input .ke {
+  background-position: -96px -66px;
+}
+
+.intl-tel-input .kg {
+  background-position: -112px -66px;
+}
+
+.intl-tel-input .kh {
+  background-position: -128px -66px;
+}
+
+.intl-tel-input .ki {
+  background-position: -144px -66px;
+}
+
+.intl-tel-input .km {
+  background-position: -160px -66px;
+}
+
+.intl-tel-input .kn {
+  background-position: -176px -66px;
+}
+
+.intl-tel-input .kp {
+  background-position: -192px -66px;
+}
+
+.intl-tel-input .kr {
+  background-position: -208px -66px;
+}
+
+.intl-tel-input .kw {
+  background-position: -224px -66px;
+}
+
+.intl-tel-input .ky {
+  background-position: -240px -66px;
+}
+
+.intl-tel-input .kz {
+  background-position: 0 -77px;
+}
+
+.intl-tel-input .la {
+  background-position: -16px -77px;
+}
+
+.intl-tel-input .lb {
+  background-position: -32px -77px;
+}
+
+.intl-tel-input .lc {
+  background-position: -48px -77px;
+}
+
+.intl-tel-input .li {
+  background-position: -64px -77px;
+}
+
+.intl-tel-input .lk {
+  background-position: -80px -77px;
+}
+
+.intl-tel-input .lr {
+  background-position: -96px -77px;
+}
+
+.intl-tel-input .ls {
+  background-position: -112px -77px;
+}
+
+.intl-tel-input .lt {
+  background-position: -128px -77px;
+}
+
+.intl-tel-input .lu {
+  background-position: -144px -77px;
+}
+
+.intl-tel-input .lv {
+  background-position: -160px -77px;
+}
+
+.intl-tel-input .ly {
+  background-position: -176px -77px;
+}
+
+.intl-tel-input .ma {
+  background-position: -192px -77px;
+}
+
+.intl-tel-input .mc {
+  background-position: -208px -77px;
+}
+
+.intl-tel-input .md {
+  background-position: -224px -77px;
+}
+
+.intl-tel-input .me {
+  background-position: -112px -154px;
+  height: 12px;
+}
+
+.intl-tel-input .mg {
+  background-position: 0 -88px;
+}
+
+.intl-tel-input .mh {
+  background-position: -16px -88px;
+}
+
+.intl-tel-input .mk {
+  background-position: -32px -88px;
+}
+
+.intl-tel-input .ml {
+  background-position: -48px -88px;
+}
+
+.intl-tel-input .mm {
+  background-position: -64px -88px;
+}
+
+.intl-tel-input .mn {
+  background-position: -80px -88px;
+}
+
+.intl-tel-input .mo {
+  background-position: -96px -88px;
+}
+
+.intl-tel-input .mp {
+  background-position: -112px -88px;
+}
+
+.intl-tel-input .mq {
+  background-position: -128px -88px;
+}
+
+.intl-tel-input .mr {
+  background-position: -144px -88px;
+}
+
+.intl-tel-input .ms {
+  background-position: -160px -88px;
+}
+
+.intl-tel-input .mt {
+  background-position: -176px -88px;
+}
+
+.intl-tel-input .mu {
+  background-position: -192px -88px;
+}
+
+.intl-tel-input .mv {
+  background-position: -208px -88px;
+}
+
+.intl-tel-input .mw {
+  background-position: -224px -88px;
+}
+
+.intl-tel-input .mx {
+  background-position: -240px -88px;
+}
+
+.intl-tel-input .my {
+  background-position: 0 -99px;
+}
+
+.intl-tel-input .mz {
+  background-position: -16px -99px;
+}
+
+.intl-tel-input .na {
+  background-position: -32px -99px;
+}
+
+.intl-tel-input .nc {
+  background-position: -48px -99px;
+}
+
+.intl-tel-input .ne {
+  background-position: -64px -99px;
+}
+
+.intl-tel-input .nf {
+  background-position: -80px -99px;
+}
+
+.intl-tel-input .ng {
+  background-position: -96px -99px;
+}
+
+.intl-tel-input .ni {
+  background-position: -112px -99px;
+}
+
+.intl-tel-input .nl,.intl-tel-input .bq {
+  background-position: -128px -99px;
+}
+
+.intl-tel-input .no {
+  background-position: -144px -99px;
+}
+
+.intl-tel-input .np {
+  background-position: -160px -99px;
+}
+
+.intl-tel-input .nr {
+  background-position: -176px -99px;
+}
+
+.intl-tel-input .nu {
+  background-position: -192px -99px;
+}
+
+.intl-tel-input .nz {
+  background-position: -208px -99px;
+}
+
+.intl-tel-input .om {
+  background-position: -224px -99px;
+}
+
+.intl-tel-input .pa {
+  background-position: -240px -99px;
+}
+
+.intl-tel-input .pe {
+  background-position: 0 -110px;
+}
+
+.intl-tel-input .pf {
+  background-position: -16px -110px;
+}
+
+.intl-tel-input .pg {
+  background-position: -32px -110px;
+}
+
+.intl-tel-input .ph {
+  background-position: -48px -110px;
+}
+
+.intl-tel-input .pk {
+  background-position: -64px -110px;
+}
+
+.intl-tel-input .pl {
+  background-position: -80px -110px;
+}
+
+.intl-tel-input .pm {
+  background-position: -96px -110px;
+}
+
+.intl-tel-input .pr {
+  background-position: -112px -110px;
+}
+
+.intl-tel-input .ps {
+  background-position: -128px -110px;
+}
+
+.intl-tel-input .pt {
+  background-position: -144px -110px;
+}
+
+.intl-tel-input .pw {
+  background-position: -160px -110px;
+}
+
+.intl-tel-input .py {
+  background-position: -176px -110px;
+}
+
+.intl-tel-input .qa {
+  background-position: -192px -110px;
+}
+
+.intl-tel-input .re {
+  background-position: -208px -110px;
+}
+
+.intl-tel-input .ro {
+  background-position: -224px -110px;
+}
+
+.intl-tel-input .rs {
+  background-position: -240px -110px;
+}
+
+.intl-tel-input .ru {
+  background-position: 0 -121px;
+}
+
+.intl-tel-input .rw {
+  background-position: -16px -121px;
+}
+
+.intl-tel-input .sa {
+  background-position: -32px -121px;
+}
+
+.intl-tel-input .sb {
+  background-position: -48px -121px;
+}
+
+.intl-tel-input .sc {
+  background-position: -64px -121px;
+}
+
+.intl-tel-input .sd {
+  background-position: -80px -121px;
+}
+
+.intl-tel-input .se {
+  background-position: -96px -121px;
+}
+
+.intl-tel-input .sg {
+  background-position: -112px -121px;
+}
+
+.intl-tel-input .sh {
+  background-position: -128px -121px;
+}
+
+.intl-tel-input .si {
+  background-position: -144px -121px;
+}
+
+.intl-tel-input .sk {
+  background-position: -160px -121px;
+}
+
+.intl-tel-input .sl {
+  background-position: -176px -121px;
+}
+
+.intl-tel-input .sm {
+  background-position: -192px -121px;
+}
+
+.intl-tel-input .sn {
+  background-position: -208px -121px;
+}
+
+.intl-tel-input .so {
+  background-position: -224px -121px;
+}
+
+.intl-tel-input .sr {
+  background-position: -240px -121px;
+}
+
+.intl-tel-input .ss {
+  background-position: 0 -132px;
+}
+
+.intl-tel-input .st {
+  background-position: -16px -132px;
+}
+
+.intl-tel-input .sv {
+  background-position: -32px -132px;
+}
+
+.intl-tel-input .sx {
+  background-position: -48px -132px;
+}
+
+.intl-tel-input .sy {
+  background-position: -64px -132px;
+}
+
+.intl-tel-input .sz {
+  background-position: -80px -132px;
+}
+
+.intl-tel-input .tc {
+  background-position: -96px -132px;
+}
+
+.intl-tel-input .td {
+  background-position: -112px -132px;
+}
+
+.intl-tel-input .tg {
+  background-position: -128px -132px;
+}
+
+.intl-tel-input .th {
+  background-position: -144px -132px;
+}
+
+.intl-tel-input .tj {
+  background-position: -160px -132px;
+}
+
+.intl-tel-input .tk {
+  background-position: -176px -132px;
+}
+
+.intl-tel-input .tl {
+  background-position: -192px -132px;
+}
+
+.intl-tel-input .tm {
+  background-position: -208px -132px;
+}
+
+.intl-tel-input .tn {
+  background-position: -224px -132px;
+}
+
+.intl-tel-input .to {
+  background-position: -240px -132px;
+}
+
+.intl-tel-input .tr {
+  background-position: 0 -143px;
+}
+
+.intl-tel-input .tt {
+  background-position: -16px -143px;
+}
+
+.intl-tel-input .tv {
+  background-position: -32px -143px;
+}
+
+.intl-tel-input .tw {
+  background-position: -48px -143px;
+}
+
+.intl-tel-input .tz {
+  background-position: -64px -143px;
+}
+
+.intl-tel-input .ua {
+  background-position: -80px -143px;
+}
+
+.intl-tel-input .ug {
+  background-position: -96px -143px;
+}
+
+.intl-tel-input .us {
+  background-position: -112px -143px;
+}
+
+.intl-tel-input .uy {
+  background-position: -128px -143px;
+}
+
+.intl-tel-input .uz {
+  background-position: -144px -143px;
+}
+
+.intl-tel-input .va {
+  background-position: -160px -143px;
+}
+
+.intl-tel-input .vc {
+  background-position: -176px -143px;
+}
+
+.intl-tel-input .ve {
+  background-position: -192px -143px;
+}
+
+.intl-tel-input .vg {
+  background-position: -208px -143px;
+}
+
+.intl-tel-input .vi {
+  background-position: -224px -143px;
+}
+
+.intl-tel-input .vn {
+  background-position: -240px -143px;
+}
+
+.intl-tel-input .vu {
+  background-position: 0 -154px;
+}
+
+.intl-tel-input .wf {
+  background-position: -16px -154px;
+}
+
+.intl-tel-input .ws {
+  background-position: -32px -154px;
+}
+
+.intl-tel-input .ye {
+  background-position: -48px -154px;
+}
+
+.intl-tel-input .za {
+  background-position: -64px -154px;
+}
+
+.intl-tel-input .zm {
+  background-position: -80px -154px;
+}
+
+.intl-tel-input .zw {
+  background-position: -96px -154px;
+}
+
+.intl-tel-input {
+  position: relative;
+  display: inline-block;
+}
+
+.intl-tel-input * {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.intl-tel-input .hide {
+  display: none;
+}
+
+.intl-tel-input .v-hide {
+  visibility: hidden;
+}
+
+.intl-tel-input input[type=text],.intl-tel-input input[type=tel] {
+  position: relative;
+  z-index: 0;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-left: 44px;
+  margin-left: 0;
+}
+
+.intl-tel-input .flag-dropdown {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding: 1px;
+}
+
+.intl-tel-input .flag-dropdown:hover {
+  cursor: pointer;
+}
+
+.intl-tel-input .flag-dropdown:hover .selected-flag {
+  background-color: rgba(0,0,0,0.05);
+}
+
+.intl-tel-input input[disabled]+.flag-dropdown:hover {
+  cursor: default;
+}
+
+.intl-tel-input input[disabled]+.flag-dropdown:hover .selected-flag {
+  background-color: transparent;
+}
+
+.intl-tel-input .selected-flag {
+  z-index: 1;
+  position: relative;
+  width: 38px;
+  height: 100%;
+  padding: 0 0 0 8px;
+}
+
+.intl-tel-input .selected-flag .flag {
+  position: absolute;
+  top: 50%;
+  margin-top: -6px;
+}
+
+.intl-tel-input .selected-flag .arrow {
+  position: relative;
+  top: 50%;
+  margin-top: -2px;
+  left: 20px;
+  width: 0;
+  height: 0;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-top: 4px solid #555;
+}
+
+.intl-tel-input .selected-flag .arrow.up {
+  border-top: none;
+  border-bottom: 4px solid #555;
+}
+
+.intl-tel-input .country-list {
+  list-style: none;
+  position: absolute;
+  z-index: 2;
+  padding: 0;
+  margin: 0 0 0 -1px;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  width: 430px;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.intl-tel-input .country-list .flag {
+  display: inline-block;
+}
+
+.intl-tel-input .country-list .divider {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.intl-tel-input .country-list .country {
+  padding: 5px 10px;
+}
+
+.intl-tel-input .country-list .country .dial-code {
+  color: #999;
+}
+
+.intl-tel-input .country-list .country.highlight {
+  background-color: rgba(0,0,0,0.05);
+}
+
+.intl-tel-input .country-list .flag,.intl-tel-input .country-list .country-name {
+  margin-right: 6px;
+}
